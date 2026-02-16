@@ -45,7 +45,7 @@ numbers = [1, 2, 3, 4, 5, 1, 2, 3]
 unique_numbers = set(numbers)
 print(unique_numbers)  # {1, 2, 3, 4, 5}
 
-# 高速処理
+# 高速処理 setは中のデータに対して高速に検索できる
 large_list = set(range(1000000)) # 0から999999までのリスト
 test_number = 999999
 
@@ -57,3 +57,5 @@ print(result)
 
 end = time.time()
 print('検索時間：', end - start)  # 検索時間： 0.0
+
+
