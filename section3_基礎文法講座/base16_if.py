@@ -86,4 +86,4 @@ print*('ブドウ' not in fruits) #True
 
 car = {'brand': 'トヨタ', 'model': 'Prius'}
 if 'brand' in car:
-    print(car['brand'])
+    print(car['brand']) #トヨタ
