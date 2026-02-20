@@ -2,6 +2,16 @@
 
 Flaskの基礎からSNS開発まで：Udemyでの学習ログと実装記録
 
+## 📅 2026/02/20
+
+### try, except, finally, raise
+
+- try, exceptは飛んできたエラーをキャッチするのに対しraiseは自らのルールを設定する審判のようなもの。
+- コード的には問題ないがアプリの使用上、あってはならないことに対してエラーを出せる。
+- PasswordTooShortError: パスワードが短い
+  EmailAlreadyExistsError: メールの重複
+  このように名前を付けておくことで、except PasswordTooShortError: のように、特定のエラーだけを狙い撃ちして「パスワードを長くしてください」といった適切なメッセージを表示できるようになる
+
 ## 📅 2026/02/19
 
 ### 演習問題２(excersize/base2)
