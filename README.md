@@ -8,7 +8,7 @@ Flaskの基礎からSNS開発まで：Udemyでの学習ログと実装記録
 
 ## 📅 2026/02/23
 
-### 演習問題3(/Users/ohzora/Documents/GitHub/flask-study-log/excersize/base3.py)
+### 演習問題3(excersize/base3.py)
 
 - **インデックス調整**: ユーザー入力（1始まり）とリストの添字（0始まり）のズレを `-1` で解消。
 - **評価の慣習**: 不合格は "Fail" の頭文字をとって `F` と定義。
