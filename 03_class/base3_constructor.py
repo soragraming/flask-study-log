@@ -1,15 +1,15 @@
 class Registry:
     registries = []
-    
+
     def __init__(self, name = 'ABC'): # 初期化時に呼び出されれるもの
         print('コンストラクタ呼び出し')
         self.name = name
         Registry.registries.append(self.name)
-    
+
     def __del__(self):
         print(f"{self.name}を削除")
         Registry.registries.remove(self.name)
-    
+
     def print_name(self):
         print(self.name)
 

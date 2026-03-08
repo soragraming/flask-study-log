@@ -1,13 +1,13 @@
 class Student:
     # クラス変数
     school_name = 'ABC学園'
-    
+
     def display_info(self):
         print(f"{self.school_name}: {self.name}")
-    
+
     def set_school_name(self, name):
         self.school_name = name
-    
+
     def set_name(self, name):
         self.name = name
 

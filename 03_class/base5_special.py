@@ -37,3 +37,16 @@ car = Car("Prius")
 
 print(car)      # 魔法発動！ -> この車は Prius です
 print(len(car)) # 魔法発動！ -> 5
+
+class Runner:
+    def __init__(self, name):
+        self.name = name
+
+    def __call__(self, distance):
+        print(f"{self.name}は{distance}km走りました!")
+
+#インスタンス作成
+run_log = Runner("大空")
+
+# 関数みたいに呼び出せる
+run_log(10) # -> 大空は10km走りました!
